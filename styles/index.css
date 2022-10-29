@@ -159,7 +159,7 @@
 }
 
 @media(max-width:500px) {
-    .sub-section {
+    .section {
         transform: translateY(-100px);
     }
     #who-we-are #content {
