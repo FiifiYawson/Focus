@@ -331,6 +331,10 @@
     flex-wrap: wrap;
 }
 
+#companies #company-logos img {
+    max-width: 100%;
+}
+
 #companies h4 {
     color: #396c41;
     font-weight: 400;

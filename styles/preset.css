@@ -109,7 +109,7 @@ header {
 }
 
 .bottom-section .news-letter .email-field {
-    max-width: 500px;
+    /* max-width: 70%; */
     height: 70px;
     border-radius: 40px;
     background-color: #d9d9d9;
@@ -125,6 +125,7 @@ header {
     background-color: transparent;
     padding: 0 50px;
     font-size: large;
+    max-width: 50vw;
 }
 
 .bottom-section .news-letter .email-field button {
