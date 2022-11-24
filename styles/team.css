@@ -1,0 +1,58 @@
+.top-section {
+    background-image: url(../images/Rectangle\ 39\ \(1\).png);
+    background-size: cover;
+    background-position: center bottom;
+    padding-bottom: 200px;
+    border-radius: 0 0 20px 20px;
+}
+
+#main-head {
+    font-family: poor;
+    font-size: 80px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    text-align: center;
+    gap: 100px;
+}
+
+.profile-pic {
+    width: clamp(200px, 30vw, 300px);
+    height: clamp(200px, 30vw, 300px);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-block .links {
+    display: flex;
+    position: relative;
+    gap: 15px;
+}
+
+.member-block .links .seperator {
+    width: 2px;
+    height: 100%;
+    background-color: #EEE50E;
+}
+
+.email-link::before {
+    content: url(../images/Vectorf.svg);
+    display: block;
+}
+
+.bio-link::before {
+    content: url(../images/Vectorb.svg);
+    display: block;
+}
