@@ -62,7 +62,7 @@
     background-image: url(../images/main-page-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center -10px;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 440px;
